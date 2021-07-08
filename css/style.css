@@ -1,5 +1,159 @@
 @import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
 
+:root{
+    --color-primary: #444CF7;
+    --color-title: #000;
+    --align-title: left;
+    --padding-container: 100px 0;
+    --width-container: 90%;
+    --max-width-container: 1200px;
+    --color-btn: #444CF7;
+    --text-btn: #fff;
+    --padding-btn: 20px 35px;
+    --height-shape: 18em;
+}
+
+
 body{
     font-family: 'Otomanopee One', sans-serif;
+    background-color: #e5e5f7;
+    opacity: 1;
+    background-image:  radial-gradient(#444cf7 0.70px, transparent 0.75px), radial-gradient(#444cf7 0.75px, #e5e5f7 0.75px);
+    background-size: 28px 28px;
+    background-position: 0 0,14px 14px;
+    }
+
+.container{
+    width: var(--width-container);
+    max-width: var(--max-width-container);
+    padding: var(--padding-container);
+    margin: 0 auto;
+    overflow: hidden;
 }
+
+.hero{
+    height: 100vh;
+    min-height: 500px;
+    position: relative;
+    --padding-container: 0;
+}
+
+.hero::after{
+    content: "";
+    display: block;
+    position: absolute;
+    height: var(--height-shape);
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    z-index: -1;
+    clip-path: polygon(0 100%,100% 100%,100% 0);
+}
+
+.hero__container{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 3fr 2fr;
+    place-items: center;
+    gap: 20px;
+}
+
+.hero__title{
+    font-size: 4rem;
+}
+
+.hero__copy{
+    font-size: 1.2rem;
+    margin: 25px 0; 
+}
+
+.hero__cta{
+    display: inline-block;
+    background: var(--color-btn);
+    color: #fff;
+    padding: var(--padding-btn);
+    text-align: center;
+    text-decoration: none;
+}
+
+.hero__img{
+    width: 95%;
+}
+
+.main{
+    background: #fff;
+}
+
+.title{
+    font-size: 2.5rem;
+    text-align: var(--align-title);
+    color: var(--color-title);
+}
+
+.title--border::after{
+    content: "";
+    display: block;
+    width: 100px;
+    margin-top: 20px;
+    height: 4px;
+    background-color: var(--color-primary);
+}
+
+.instructor{
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    --padding-container: 30px 0 60px;
+}
+
+.instructor__container{
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr;
+    place-items: center;
+
+    /*width: 70%;
+    margin: 0 auto;
+    align-items: center;*/
+}
+
+.instructor__titulo{
+    margin: 25px 40px;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    width: auto;
+}
+
+.instructor__name{
+    margin: 20px 0;
+}
+
+.instructor__tag{
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 20px;
+}
+
+.instructor__paragraph{
+    text-align: left;
+    line-height: 1.5;
+    font-style: italic;
+    color: #615a5a;
+}
+
+.instructor__img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    
+}
+
+.about{
+    display: grid;
+
+    
+}
+
+
+
