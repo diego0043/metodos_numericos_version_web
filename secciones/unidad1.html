@@ -6,21 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../assets/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style2.css">
     <title>Métodos numéricos</title>
 </head>
 <body>
     <div class="topnav">
-        <a href="../index.html">Inicio</a>
+        <a href="../index.html" >Inicio</a>
         <a href="#">Ecuaciones de una variable</a>
         <a href="/secciones/unidad2.html">Interpolación y aproximación lineal</a>
         <a href="/secciones/unidad3.html">Diferenciación y integración</a>
         <a href="/secciones/unidad4.html">Ecuaciones diferenciales ordinarias</a>
     </div>
-    <main class="main__uni1">
+    <main class="main_unidades">
         <section class="widgets">
-
-            <h4>Selecciona un metodo</h4>
+            <h4 class="labels">Selecciona un metodo</h4>
             <select name="select" class="cmb">
                 <option value="value1">Bisección</option>
                 <option value="value2">Falsa Posición</option>
@@ -31,31 +30,31 @@
                 <option value="value7">Muller</option>
             </select>
 
-            <h4>Ingresa una funcion</h4>
-            <input type="text" class="entrada">
+            <input type="text" class="entrada" placeholder="Escribe una funcion">
 
-            <h4>Puntos en los que evaluaremos</h4>
+            <h4 class="labels">puntos en los que evaluaremos</h4>
 
-            <h4>Ingresa el primer valor</h4>
-            <input type="number" class="entrada">
+            <input type="number" class="entrada" placeholder="Ingresa el primer valor">
 
-            <h4>Ingresa el segundo valor</h4>
-            <input type="number" class="entrada">
+            <input type="number" class="entrada" placeholder="Ingresa el segundo valor">
 
-            <h4>Ingresa el tercer valor</h4>
-            <input type="number" class="entrada">
+            <input type="number" class="entrada" placeholder="Ingresa el tercer valor">
 
-            <h4>¿Cuantas cifras significativas?</h4>
-            <input type="number" class="entrada">
+            <h4 class="labels">Cifras significativas</h4>
+            <input type="number" class="entrada" placeholder="Ingrese las cifras significativas">
 
-            <button>Calcular</button>
-            <button>Nuevo</button>
+            <div class="grupo_btn">
+                <button class="button1">Calcular</button>
+                <button class="button2">Nuevo</button>
+            </div>
         </section>
         
         <section class="output">
 
         </section>
-
     </main>
+
+
+    <hr class="solid">
 </body>
 </html>
