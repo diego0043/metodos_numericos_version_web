@@ -376,7 +376,7 @@ body{
     margin-right: 5px;
     margin-left: 5px;
     border-radius: 20px;
-    background-color: #433457;
+    background-color: #3d3d3d;
     overflow: hidden;
 }
 
@@ -392,7 +392,7 @@ font-size: 17px;
 
 /* Change the color of links on hover */
 .topnav a:hover {
-background-color: #665280;
+background-color: #444CF7;
 color: white;
 }
 
@@ -419,6 +419,35 @@ color: white;
     margin-right: 10px;
     width: 90%;
 }
+
+/*unidad 1*/
+
+.main__uni1{
+    padding: 20px;
+    margin: 50px;
+    background: #3d3d3d;
+    border-radius: 25px;
+}
+
+.widgets{
+    color: white;
+}
+
+.entrada{
+    color: white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 3px solid #ffffff;
+    background: transparent;
+}
+
+.cmb{
+    color: white;
+    border-radius: 10px;
+    background: transparent;
+}
+
 
 
 
