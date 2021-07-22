@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+body{
+    font-family: 'Otomanopee One', sans-serif;
+    background-color: white;
+    opacity: 1;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+input[type=number] { -moz-appearance:textfield; }
+
+.topnav {
+    display: block;
+    margin-top: 20px;
+    background-color: transparent;
+    overflow: hidden;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    background: #F9F6FF;
+    border-radius: 14px;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-weight: normal;
+    padding: 0;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #EFEFEF;
+    color: rgb(0, 0, 0);
+}
+
+/* Add a color to the active/current link */
+
+
+.menu__container{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 3fr 2fr;
+    place-items: center;
+    gap: 20px;
+}
+
+.menu__title{
+    width: 700px;
+    font-size: 4rem;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.img__opcion{
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 90%;
+}
+
+/*unidad 1*/
+
+.main_unidades{
+    display: grid;
+    grid-template-columns: 10fr 10fr;
+    margin-left: 0;
+}
+
+.widgets{
+    padding: 30px;
+    background: white;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 23em;
+    height: 30em;
+    box-shadow: 3px 3px 25px rgb(204, 203, 203);
+    border-radius: 16px;
+    display: grid;
+    background-image: url(/assets/bg-12.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.output{
+    padding: 30px;
+    background: white;
+    margin-top: 30px;
+    margin-right: 200px;
+    margin-left: 20px;
+    width: 57em;
+    height: 30em;
+    box-shadow: 3px 3px 25px rgb(204, 203, 203);
+    border-radius: 16px;
+    display: grid;
+    background-image: url(/assets/bg-12.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.entrada{
+    color: rgb(0, 0, 0);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    margin-top: 8px;
+    margin-bottom: 8px;  
+    
+}
+
+.entrada:focus{
+    border: none;
+}
+
+.cmb{
+    color: rgb(0, 0, 0);
+    border-radius: 12px;
+    background: transparent;
+    margin-bottom: 10px;
+    width: 180px;
+    border: 2px solid ;
+}
+
+.cmb:en{
+    border: none;
+}
+
+.labels{
+    margin-top: 10px;
+}
+
+hr.solid {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    border-top: 3px solid #bbb;
+}
+
+.grupo_btn{
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+.button1{
+    display:inline-block ;
+    vertical-align: auto;
+    border-radius: 30px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    background: transparent;
+    border: 3px solid rgb(45, 212, 81);
+    color: rgb(45, 212, 81);
+}
+
+.button1:hover{
+    background: rgb(45, 212, 81);
+    color: white;
+}
+
+.button2{
+    display:inline-block ;
+    vertical-align: auto;
+    border-radius: 30px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    background: transparent;
+    border: 3px solid rgb(236, 94, 94); 
+    color: rgb(236, 94, 94);
+}
+
+.button2:hover{
+    background: rgb(236, 94, 94);
+    color: white;
+}
+
+
